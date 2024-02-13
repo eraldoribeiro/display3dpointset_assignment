@@ -3,5 +3,7 @@ nbclient
 pandas
 importnb
 cvxopt
+matplotlib
+
 
 
