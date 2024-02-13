@@ -25,5 +25,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: python3 -m unittest -v test_unittest_display_3D.py
+        run: 
+          pip install -r requirements.txt
+          python3 -m unittest -v test_unittest_display_3D.py
 
