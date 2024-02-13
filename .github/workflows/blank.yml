@@ -24,8 +24,10 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Python Setup & Packages Installation
         run: 
           pip install -r requirements.txt
+
+      - name: Run test  
           python3 -m unittest -v test_unittest_display_3D.py
 
