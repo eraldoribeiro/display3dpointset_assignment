@@ -28,6 +28,7 @@ jobs:
         run: 
           pip install -r requirements.txt
 
-      - name: Run test  
+      - name: Run test
+        run: 
           python3 -m unittest -v test_unittest_display_3D.py
 
