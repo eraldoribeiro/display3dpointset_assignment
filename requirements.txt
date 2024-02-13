@@ -2,4 +2,6 @@ jupyterlab
 nbclient
 pandas
 importnb
+cvxopt
+
 
